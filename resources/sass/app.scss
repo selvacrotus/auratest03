@@ -1,0 +1,44 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+//@import 'sencha-touch/default';
+//@import 'sencha-touch/default/all';
+
+// Custom code goes here..
+@import 'sencha-touch/windows';
+@import 'sencha-touch/windows/all';
+@import 'iris_style';
+// Examples of using the icon mixin:
+// @include icon('user');
+
+@include icon-font('Icomoon', inline-font-files(
+    'pictos/icomoon.woff', woff,
+    'pictos/icomoon.ttf', truetype,
+    'pictos/icomoon.svg', svg
+));
+@include icon-font('Icomoon1', inline-font-files(
+    'pictos/icomoon1.woff', woff,
+    'pictos/icomoon1.ttf', truetype,
+    'pictos/icomoon1.svg', svg
+));
+@include icon("info"  , "\e61d", "Icomoon");
+@include icon("forkandknife"  , "\e62c", "Icomoon");
+@include icon("bell"  , "\e60a", "Icomoon");
+@include icon("pictures"  , "\e624", "Icomoon");
+@include icon("signal"  , "\e61a", "Icomoon");
+@include icon("leaf"  , "\e651", "Icomoon");
+@include icon("mobile"  , "\e601", "Icomoon");
+@include icon("cart3"  , "\e618", "Icomoon");
+@include icon("trash"  , "\e6c3", "Icomoon");
+@include icon("user4"  , "\e675", "Icomoon1");
+@include icon("aid"  , "\e693", "Icomoon1");
+
+
+/*.food:before{
+	font-family:"Icomoon";
+	font-size:1em;
+	content:"";e600
+	}*/
+/*
+
+@import 'sencha-touch/default/src/MessageBox';*/
